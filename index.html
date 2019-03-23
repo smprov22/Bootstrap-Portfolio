@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Bootstrap Portfolio</title>
+    <style>
+      body {
+        max-width: 960px;
+        margin: 0px auto;
+    }
+    
+    .navbar {
+      max-width: 960px;
+      margin: 0px auto;
+      border-bottom: 3px solid darkgray;
+      padding-bottom: 0px;
+    }
+
+    .navbar-brand {
+      padding: 10px;
+      margin-left: 80px;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      float: left;
+      background-color: #4aaaa5;
+      color: white !important;
+    }
+
+    ul {
+      flex-direction: row !important; 
+      margin-right: 80px;
+    }
+
+    li {
+      padding: 0px 10px;
+      border-left: 2px solid lightgray;
+    }
+
+    li:first-child {
+      border-left: none;
+    }
+
+    .container {
+      background: url("images/mooning_@2X.png");
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+
+    .text {
+      margin: 0px 80px -10px;
+      background-color: white;
+    }
+    .card-title {
+        color: #4aaaa5;
+        border-bottom: 2px solid lightgray;
+    }
+
+    .about {
+      margin: 20px 10px;
+    }
+
+    .footer {
+      margin: 0px auto;
+    }
+
+    #copyright {
+      background-color: #666666;
+      border-top: 5px solid #4aaaa5;
+      text-align: center;
+      color: lightgray;
+      padding: 15px 0px;
+      margin: 0px auto;
+      max-width: 960px;
+    }
+
+    .bar {
+      padding: 0px;
+    }
+
+    @media screen and (max-width: 1000px) {
+      body {
+        width: 100%;
+      }
+
+      .container, .navbar, .footer {
+        max-width: 100%;
+      }
+    
+      .footer {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        width: 100%;
+      }
+      
+      .container, .navbar, .footer {
+        max-width: 100%
+      }
+
+      .text {
+        margin: 40px;
+      }
+
+      .navbar-brand {
+        margin-left: 40px;
+      }
+
+      ul {
+        margin-right: 30px;
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      body {
+        width: 100%;
+      }
+
+      .container, .navbar, .footer {
+        max-width: 380px;
+      }
+
+      .text {
+        margin: 10px;
+      }
+
+      .navbar-brand {
+        margin-left: 80px;
+      }
+
+      ul {
+        margin-left: 67px;
+      }
+      .selfie {
+        margin-left: 65px;
+      }
+    }
+
+    </style>
+
+  </head>
+<body>
+    
+    <nav class= "navbar navbar-light">
+      <div>
+          <a class="navbar-brand" href="index.html">Stephanie Provence</a>
+      </div>
+            
+      <div id="navbarSupportedContent"> 
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="row text">
+          <div class="col-sm-12 about">
+              <div style="max-width: 960px; margin: 0px auto;">
+                  <div class="row no-gutters">
+                    <div class="col-sm-2">
+                      <img src="images/Stephanie.jpg" class="card-img card mb-2 selfie" alt="Stephanie" style="max-width: 150px;">
+                    </div>
+                    <div class="col-sm-10">
+                      <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">My name is Stephanie Provence and I'm taking this coding bootcamp to learn new skills and hopefully enter a new career path. Although I expect this to be very challenging, I think the reward of a new, fulfilling career will be well worth it in the long run.<br><br>For the last 10 years I lived in Los Angeles, pursuing an editing career in the TV/Film industry. Although I did ok down there, I never made it as far as I wanted, and after having my daughter in 2017, my husband and I decided that living near family while my daughter is young is more important than working in the film industry so we moved up to Sacramento.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer">
+          <div class="col-sm-12 bar">
+              <p id="copyright">Copyright ©</p>
+          </div>
+        </div>
+
+</body>
+</html>
